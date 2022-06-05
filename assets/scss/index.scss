@@ -1,0 +1,141 @@
+#header {
+  background-color: #290742;
+  padding: 68px 137px;
+  margin: 0 auto;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    > ul:nth-child(2) {
+      display: flex;
+      gap: 32px;
+
+      > li:nth-child(1) {
+        a {
+          &::after {
+            content: "";
+            display: block;
+            height: 2px;
+            width: 17px;
+            background-color: #4fff4b;
+          }
+        }
+      }
+    }
+  }
+}
+
+#one {
+  display: flex;
+  align-items: center;
+  background-color: #290742;
+  justify-content: center;
+  margin: 0 auto;
+
+  gap: 116px;
+  margin-bottom: 69px;
+
+  > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+
+    > h1 {
+      width: 569px;
+      font-size: 36px;
+      color: #9e6dc2;
+
+      line-height: 54px;
+    }
+    > p {
+      width: 469px;
+      font-size: 18px;
+      color: #fbf6ff;
+    }
+    > div:nth-child(3) {
+      display: flex;
+
+      gap: 10px;
+
+      span {
+        font-size: 18px;
+        color: #9e6dc2;
+      }
+    }
+  }
+  > div:nth-child(2) {
+    > img {
+      width: 570px;
+      height: 356px;
+      max-width: 100%;
+      max-height: 100%;
+
+      border-radius: 8px;
+    }
+  }
+}
+
+#two {
+  display: flex;
+  justify-content: center;
+  gap: 130px;
+
+  > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    img {
+      width: 570px;
+      height: 356px;
+      max-width: 100%;
+      max-height: 100%;
+
+      border-radius: 8px;
+    }
+
+    span {
+      font-size: 16px;
+      color: #000000;
+    }
+    h1 {
+      font-size: 24px;
+      color: #290742;
+    }
+    p {
+      font-size: 16px;
+      color: #000000;
+      line-height: 24px;
+
+      width: 569px;
+      height: 100px;
+    }
+  }
+
+  > div:nth-child(2) {
+    > div:nth-child(1) {
+      border-bottom: 1px solid #f2e7fa;
+      margin-bottom: 26px;
+      max-width: 471px;
+
+      span {
+        font-size: 16px;
+        color: #000000;
+      }
+      h1 {
+        max-width: 467px;
+        margin-bottom: 23px;
+        margin-top: 5px;
+      }
+      p {
+        font-size: 16px;
+        color: #000000;
+        line-height: 24px;
+        max-width: 471px;
+        margin-bottom: 35px;
+      }
+    }
+  }
+}
