@@ -12,14 +12,13 @@
   display: flex;
   gap: 32px;
 }
-#header nav > ul:nth-child(2) > li:nth-child(1) a::after {
+#header nav > ul:nth-child(2) > li:nth-child(1)::before {
   content: "";
   display: block;
   height: 2px;
   width: 17px;
   background-color: #4fff4b;
 }
-
 #one {
   display: flex;
   align-items: center;

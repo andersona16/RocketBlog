@@ -13,14 +13,14 @@
       gap: 32px;
 
       > li:nth-child(1) {
+        &::before {
+          content: "";
+          display: block;
+          height: 2px;
+          width: 17px;
+          background-color: #4fff4b;
+        }
         a {
-          &::after {
-            content: "";
-            display: block;
-            height: 2px;
-            width: 17px;
-            background-color: #4fff4b;
-          }
         }
       }
     }
